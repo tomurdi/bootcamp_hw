@@ -1,0 +1,86 @@
+.header {
+    background-color: rgb(105, 170, 124);
+
+}
+
+.header * {
+    color: azure;
+}
+
+.header-btn {
+    background-color: gray;
+    color: blanchedalmond;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.header-btn:hover, .section-btn:hover {
+    background-color: black;
+}
+
+.header, .section, .additional {
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+
+.additional {
+    background-color: cornflowerblue;
+}
+
+
+
+.section-btn {
+    background-color: bisque;
+    color:crimson;
+    padding: 5px;
+    border-radius: 27px;
+}
+
+.intro, .fact1, .fact2, .fact3, .fact4, .fact5, .additional {
+    border-radius: 40px;
+    padding: 27px;
+    font-size: large;
+    border-style: dotted;
+}
+
+.intro {
+    color:chocolate;
+    background-color: cornsilk;
+}
+
+.fact1 {
+    color:darkred;
+    background-color:darkgrey;
+}
+
+.fact2 {
+    color:blanchedalmond;
+    background-color:cadetblue;
+}
+
+.fact4 {
+    color:coral;
+    background-color: antiquewhite;
+}
+
+.fact5 {
+    color:azure;
+    background-color:burlywood;
+}
+
+.fact1 img, .proj img {
+    height:75px;
+}
+
+.fact2 img, .fact4 img, .fact5 img {
+    height: 75px;
+    mix-blend-mode:multiply; 
+}
+
+.fact3 {
+    color: darkgoldenrod;
+    background-color: honeydew;
+}
